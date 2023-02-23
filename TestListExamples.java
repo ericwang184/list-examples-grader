@@ -24,7 +24,7 @@ public class TestListExamples {
     List<String> left = Arrays.asList("a", "b", "z");
     List<String> right = Arrays.asList("a", "d");
     List<String> merged = ListExamples.merge(left, right);
-    List<String> expected = Arrays.asList("a", "a", "b", "d", "z");
+    List<String> expected = Arrays.asList("a", "b", "d", "z");
     assertEquals(expected, merged);
   }
 

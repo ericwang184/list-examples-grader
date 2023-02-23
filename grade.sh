@@ -49,7 +49,7 @@ else
   cat junit-output.txt
   echo ""
   echo "--------------"
-  echo "| Score: $COUNT/4 |"
+  echo "| Score: "$COUNT"/4 |"
   echo "--------------"
   echo ""
 fi
